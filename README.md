@@ -1,4 +1,4 @@
-<p align="center"><a href="https://ritsukasu.github.io"><img width="80%" alt="Hello! I'm Ryan Valencia 🪴" src="./ritsukasu/Welcome thee.png" /></a></p>
+<p align="center"><a href="https://ritsukasu.github.io"><img width="80%" alt="Hello! I'm Ryan Valencia 🪴" src="./Welcome thee.png" /></a></p>
 
 <br />
 
