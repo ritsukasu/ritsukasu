@@ -1,4 +1,6 @@
-# Henloo! I'm Ryan Valencia 🪴
+<p align="center"><a href="https://ritsukasu.github.io"><img width="80%" alt="Hello! I'm Ryan Valencia 🪴" src="./assets/gh-readme-Welcome thee.png" /></a></p>
+
+<br />
 
 🎮  I'm a 21-year-old aspiring Game Developer and Backend Developer based in Bacolod City, Philippines. I specialize in game development using Python, C++, and C#.
 
