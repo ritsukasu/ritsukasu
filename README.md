@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"><a href="https://ritsukasu.github.io"><img width="200%" alt="Hello! I'm Ryan Valencia 🪴" src="./Welcome thee.png" /></a></p>
+<p align="center"><a href="https://ritsukasu.github.io"><img width="50%" alt="Hello! I'm Ryan Valencia 🪴" src="./Welcome thee.png" /></a></p>
 
 <br />
 
