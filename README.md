@@ -4,6 +4,8 @@
 
 ---
 
+# Programming Languages I know to use:
+
 ### 🖼️ Frontend
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=000&style=flat)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwind-css&logoColor=fff&style=flat)
@@ -29,6 +31,11 @@
 📖 Reading
 🌀 Beyblading
 (´｡• ᵕ •｡`)ノ🌱 Gardening
+
+---
+
+## ♟️ My motto:
+"What would life be without challenges."
 
 
 
