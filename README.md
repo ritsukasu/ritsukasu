@@ -1,16 +1,29 @@
-## Hi there 👋
+# Henloo! I'm Ryan Valencia
 
-<!--
-**ritsukasu/ritsukasu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎮  I'm a 21-year-old aspiring Game Developer and Backend Developer based in Bacolod City, Philippines. I specialize in game development using Python, C++, and C#.
+---
 
-Here are some ideas to get you started:
+### 💻 Frontend
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=000&style=flat)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwind-css&logoColor=fff&style=flat)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=fff&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=fff&style=flat)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 Backend
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=fff&style=flat)
+![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=fff&style=flat)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
+![Firestore](https://img.shields.io/badge/-Firestore-FFCA28?logo=firebase&logoColor=000&style=flat)
+![C++](https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social)
+![C#](https://img.shields.io/badge/C%23-Language-blue.svg?&logo=csharp&logoColor=white)
+
+---
+
+## 🌱 Outside the Screen
+
+🏃‍♂️ Running | 🎨 Painting  | 📖🚴 Cycling
+
+
+
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/(+63)9085608811)
