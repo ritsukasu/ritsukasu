@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"><a href="https://ritsukasu.github.io"><img width="80%" alt="Hello! I'm Ryan Valencia 🪴" src="./Welcome thee.png" /></a></p>
+<p align="center"><a href="https://ritsukasu.github.io"><img width="100%" alt="Hello! I'm Ryan Valencia 🪴" src="./Welcome thee.png" /></a></p>
 
 <br />
 
@@ -30,7 +30,7 @@
 ---
 
 # ⚙️ Softwares:
-[Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important)
 ![Aseprite](https://img.shields.io/badge/Aseprite-FFFFFF?style=for-the-badge&logo=Aseprite&logoColor=#7D929E)
 ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
@@ -48,7 +48,10 @@
 🎨 Painting  
 📖 Reading
 🌀 Beyblading
-(´｡• ᵕ •｡`)ノ🌱 Gardening
+🌱 Gardening
+🛹 Skateboarding 
+🕹️ Gaming
+🎹 Playing the piano
 
 ---
 
