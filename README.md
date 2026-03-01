@@ -10,7 +10,7 @@
 
 ---
 
-# 💻 Programming Languages:
+# 💻 Skills:
 
 ### 🖼️ Frontend
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=000&style=flat)
@@ -53,6 +53,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](ryanvalencia796@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-valencia-164725307/)
 
+---
 
 ## — "What would life be without challenges ( • ⩊ • )."
 
