@@ -55,7 +55,7 @@
 
 ---
 
-## — "What would life be without challenges ( • ⩊ • )."
+## — "What would life be without challenges"
 
 
 
