@@ -36,22 +36,14 @@
 ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
 ![Clip Studio Paint](https://img.shields.io/badge/ClipStudioPaint-%23CFD3D3.svg?style=for-the-badge&logo=ClipStudioPaint&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Gimp Gnu Image Manipulation Program](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
 ---
 
 # 🎲 Hobbies:
 
-🏃‍♂️ Running 
-🎨 Painting  
-📖 Reading
-🌀 Beyblading
-🌱 Gardening
-🛹 Skateboarding 
-🕹️ Gaming
-🎹 Playing the piano
+•🏃‍♂️ Running   •📖 Reading      •🌱 Gardening        •🕹️ Gaming
+•🎨 Painting  •🌀 Beyblading   •🛹 Skateboarding    •🎹 Playing the piano
 
 ---
 
