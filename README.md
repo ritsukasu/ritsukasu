@@ -6,7 +6,7 @@
 
 <br />
 
-[![No AI](https://custom-icon-badges.demolab.com/badge/No%20AI-2f2f2f?logo=non-ai&logoColor=white)](#) I'm a 21-year-old aspiring Game Developer and Backend Developer based in Bacolod City, Philippines. I specialize in game development using Python, C++, and C#.
+🎮 I'm a 21-year-old aspiring Game Developer and Backend Developer based in Bacolod City, Philippines. I specialize in game development using Python, C++, and C#.
 
 ---
 
