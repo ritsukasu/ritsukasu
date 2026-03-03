@@ -10,6 +10,10 @@
 
 ---
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=ritsukasu)](https://git.io/streak-stats)
+
+---
+
 # 💻 Skills:
 
 ### 🖼️ Frontend
