@@ -10,8 +10,8 @@
 
 ---
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=ritsukasu)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://streak-stats.demolab.com?user=ritsukasu&theme=gotham&card_width=360&card_height=200)](https://git.io/streak-stats)
+****
 ---
 
 # 💻 Skills:
