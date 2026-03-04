@@ -6,12 +6,8 @@
 
 <br />
 
-🎮 I'm a 21-year-old aspiring Game Developer and Backend Developer based in Bacolod City, Philippines. I specialize in game development using Python, C++, and C#.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D1F3C5&width=435&lines=%F0%9F%8E%AE+I'm+a+21-year-old+aspiring+Game+Developer+and+Backend+Developer+based+in+Bacolod+City%2C+Philippines.+I+specialize+in+game+development+using+Python%2C+C%2B%2B%2C+and+C%23.)](https://git.io/typing-svg)
 
----
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=ritsukasu&theme=gotham&card_width=360&card_height=200)](https://git.io/streak-stats)
-****
 ---
 
 # 💻 Skills:
