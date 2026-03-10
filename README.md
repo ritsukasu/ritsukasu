@@ -37,6 +37,7 @@
 [![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white)](#)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)](#)
 [![Krita](https://img.shields.io/badge/Krita-203759?logo=krita&logoColor=EEF37B)](#)
+[![Threads](https://img.shields.io/badge/Threads-000000?logo=Threads&logoColor=white)](#)
 
 ---
 
