@@ -1,7 +1,7 @@
-# Hello <img src="https://raw.githubusercontent.com/animate-css/animate-css/main/animate.gif" width="0" height="0" /> (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
+# Hello (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Welcome+to+my+profile!;Full-stack+Developer;Always+learning+something+new" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Welcome+to+my+profile!;Full-stack+Developer;What+would+be+life+without+challenges" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -19,24 +19,24 @@
 
 <table>
 <tr>
-<td valign="top" width="65%">
+<td valign="top" width="50%">
 
-<img src="https://github-readme-stats.shion.dev/api?username=ritsukasu&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
+<img src="https://github-readme-stats.shion.dev/api?username=ritsukasu&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" width="100%" />
 <br />
-<img src="https://streak-stats.demolab.com/?user=ritsukasu&theme=dark&hide_border=false" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=ritsukasu&theme=dark&hide_border=false" alt="GitHub Streak" width="100%" />
 <br />
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ritsukasu&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ritsukasu&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="100%" />
 
 </td>
-<td valign="top" width="35%" align="center">
+<td valign="top" width="50%" align="center">
 
-<img src="excited.gif" alt="Excited GIF" width="280" />
+<img src="excited.gif" alt="Excited GIF" width="100%" height="700" style="object-fit: cover;" />
 
 </td>
 </tr>
 </table>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/JeremieCharrondiere/pacman-contribution-graph/output/pacman-contribution-graph.svg" alt="Pacman contribution graph" />
 </div>
 
