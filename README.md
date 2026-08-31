@@ -37,6 +37,10 @@
 </table>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/JeremieCharrondiere/pacman-contribution-graph/output/pacman-contribution-graph.svg" alt="Pacman contribution graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/pacman-contribution-graph.svg">
+</picture>
 </div>
 
