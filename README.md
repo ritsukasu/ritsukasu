@@ -1,4 +1,4 @@
-# 👋 Welcome:
+# Hello!
 <div align="center">
   <img src="welcome.gif" alt="Welcome GIF" width="600" />
 </div>
