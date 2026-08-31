@@ -1,6 +1,6 @@
-# Hello!
+# Hello (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
 <div align="center">
-  <img src="welcome.gif" alt="Welcome GIF" width="600" />
+  <img src="welcome.gif" alt="Welcome GIF" width="800" />
 </div>
 
 # 💻 Tech Stack:
