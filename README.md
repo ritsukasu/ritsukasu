@@ -1,5 +1,5 @@
 # 👋 Welcome:<div align="center">
-  <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Welcome GIF" width="600" />
+  <img src="welcome.gif" alt="Welcome GIF" width="600" />
 </div>
 
 # 💻 Tech Stack:
