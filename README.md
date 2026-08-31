@@ -30,7 +30,7 @@
 </td>
 <td valign="top" width="50%" align="center">
 
-<img src="excited.gif" alt="Excited GIF" width="100%" height="700" style="object-fit: cover;" />
+<img src="excited.gif" alt="Excited GIF" width="100%" height="550" style="object-fit: cover;" />
 
 </td>
 </tr>
