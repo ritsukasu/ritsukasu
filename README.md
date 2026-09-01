@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="welcome.gif" alt="Welcome GIF" width="850" />
+  <img src="welcome.gif" alt="Welcome GIF" width="800" />
 </div>
 
 # </> Tech Stack:
