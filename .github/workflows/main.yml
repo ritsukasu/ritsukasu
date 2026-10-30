@@ -39,25 +39,25 @@ jobs:
 
       - name: replace the ball with badge.png
         run: |
-          pip install pillow
+          if command -v convert >/dev/null 2>&1; then
+            convert badge.png -resize 96x96 /tmp/ball.png
+          else
+            cp badge.png /tmp/ball.png
+          fi
           python3 - <<'PY'
-          import base64, glob, io, re
-          from PIL import Image
-          img = Image.open('badge.png').convert('RGBA')
-          img.thumbnail((96, 96))
-          buf = io.BytesIO()
-          img.save(buf, 'PNG', optimize=True)
-          b64 = base64.b64encode(buf.getvalue()).decode()
+          import base64, glob, re
+          b64 = base64.b64encode(open('/tmp/ball.png', 'rb').read()).decode()
           defs = (
               '<defs><pattern id="ballimg" patternContentUnits="objectBoundingBox" width="1" height="1">'
               '<image href="data:image/png;base64,' + b64 + '" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>'
               '</pattern></defs>'
-              '<style>circle{fill:url(#ballimg) !important}</style>'
+              '<style>circle#ball{fill:url(#ballimg) !important;stroke:none !important}</style>'
           )
           for f in glob.glob('dist/*.svg'):
               s = open(f, encoding='utf-8').read()
               s = re.sub(r'(<svg[^>]*>)', lambda m: m.group(1) + defs, s, count=1)
               open(f, 'w', encoding='utf-8').write(s)
+              print(f, 'ballimg count:', s.count('ballimg'))
           PY
 
       - name: push SVGs to the output branch
