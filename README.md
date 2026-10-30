@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/h-hello.svg?v=1" alt="Hello (˶˃ ᵕ ˂˶) .ᐟ.ᐟ" />
+<img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/h-hello.svg?v=1" alt="Hello " />
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/typing.svg?v=1" alt="Typing SVG" />
