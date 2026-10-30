@@ -60,17 +60,55 @@ jobs:
               print(f, 'ball replaced:', n)
           PY
           
-      - name: build title SVGs (my font)
+      - name: build typing SVG (my font)
         run: |
-          B64=$(base64 -w0 animeace2_reg.ttf)
-          STYLE="<style>@font-face{font-family:'AnimeAce';src:url(data:font/ttf;base64,$B64) format('truetype')}text{font-family:'AnimeAce',sans-serif}</style>"
+          python3 - <<'PY'
+          import base64
+          from xml.sax.saxutils import escape
 
-          mk() {
-            printf '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50">%s<text x="0" y="36" font-size="32" fill="#e6edf3">%s</text></svg>' "$STYLE" "$2" > "dist/$1.svg"
-          }
-          mk h-hello "Hello"
-          mk h-tech "&lt;/&gt; Tech Stack:"
-          mk h-stats "GitHub Stats:"
+          b64 = base64.b64encode(open('animeace2_reg.ttf', 'rb').read()).decode()
+          lines = [
+              "Welcome to my profile!",
+              "Full-stack Developer",
+              "What would life be without challenges?",
+          ]
+          CPS = 0.07    # seconds per typed character
+          HOLD = 1.5    # seconds a finished line stays visible
+          GAP = 0.3     # blank pause before the next line
+
+          slots, t = [], 0.0
+          for line in lines:
+              slot = len(line) * CPS + HOLD + GAP
+              slots.append((t, slot))
+              t += slot
+          total = t
+
+          texts = ""
+          for line, (start, slot) in zip(lines, slots):
+              b = (start + slot) / total
+              spans = ""
+              for i, ch in enumerate(line):
+                  a = (start + (i + 1) * CPS) / total
+                  spans += (
+                      f'<tspan fill-opacity="0">{escape(ch)}'
+                      f'<animate attributeName="fill-opacity" values="0;1;0" '
+                      f'keyTimes="0;{a:.5f};{b:.5f}" calcMode="discrete" '
+                      f'dur="{total:.2f}s" repeatCount="indefinite"/></tspan>'
+                  )
+              texts += (
+                  f'<text x="400" y="34" text-anchor="middle" xml:space="preserve">'
+                  f'{spans}</text>'
+              )
+
+          svg = (
+              '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="50" viewBox="0 0 800 50">'
+              f"<style>@font-face{{font-family:'AnimeAce';src:url(data:font/ttf;base64,{b64}) format('truetype')}}"
+              "text{font-family:'AnimeAce',sans-serif;font-size:24px;fill:#D0F0C0}</style>"
+              f'{texts}</svg>'
+          )
+          open('dist/typing.svg', 'w', encoding='utf-8').write(svg)
+          print('typing.svg written, cycle', round(total, 1), 's')
+          PY
 
       - name: push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
