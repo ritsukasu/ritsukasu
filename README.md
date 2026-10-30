@@ -8,6 +8,8 @@
   <img src="welcome.gif" alt="Welcome GIF" width="800" />
 </div>
 
+<br />
+
 <img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/h-tech.svg?v=1" alt="Tech Stack" />
 
 <div align="center">
