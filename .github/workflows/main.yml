@@ -47,17 +47,17 @@ jobs:
           python3 - <<'PY'
           import base64, glob, re
           b64 = base64.b64encode(open('/tmp/ball.png', 'rb').read()).decode()
-          defs = (
-              '<defs><pattern id="ballimg" patternContentUnits="objectBoundingBox" width="1" height="1">'
-              '<image href="data:image/png;base64,' + b64 + '" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>'
-              '</pattern></defs>'
-              '<style>circle#ball{fill:url(#ballimg) !important;stroke:none !important}</style>'
-          )
+          R = 13  # half-size in px (original ball radius is 5; cells are 20px)
+          pat = re.compile(r'<circle id="ball"[^>]*>(.*?)</circle>', re.S)
           for f in glob.glob('dist/*.svg'):
               s = open(f, encoding='utf-8').read()
-              s = re.sub(r'(<svg[^>]*>)', lambda m: m.group(1) + defs, s, count=1)
+              def repl(m):
+                  return (f'<image id="ball" href="data:image/png;base64,{b64}" '
+                          f'x="-{R}" y="-{R}" width="{2*R}" height="{2*R}" '
+                          f'preserveAspectRatio="xMidYMid slice">{m.group(1)}</image>')
+              s, n = pat.subn(repl, s, count=1)
               open(f, 'w', encoding='utf-8').write(s)
-              print(f, 'ballimg count:', s.count('ballimg'))
+              print(f, 'ball replaced:', n)
           PY
 
       - name: push SVGs to the output branch
