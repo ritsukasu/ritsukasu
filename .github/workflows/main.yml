@@ -109,6 +109,31 @@ jobs:
           open('dist/typing.svg', 'w', encoding='utf-8').write(svg)
           print('typing.svg written, cycle', round(total, 1), 's')
           PY
+          
+      - name: build title SVGs (my font)
+        run: |
+          python3 - <<'PY'
+          import base64
+
+          b64 = base64.b64encode(open('animeace2_reg.ttf', 'rb').read()).decode()
+          style = (
+              f"<style>@font-face{{font-family:'AnimeAce';src:url(data:font/ttf;base64,{b64}) format('truetype')}}"
+              "text{font-family:'AnimeAce',sans-serif}</style>"
+          )
+
+          titles = {
+              'h-hello': 'Hello',
+              'h-tech': '&lt;/&gt; Tech Stack:',
+              'h-stats': 'GitHub Stats:',
+          }
+          for name, text in titles.items():
+              svg = (
+                  '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50">'
+                  f'{style}<text x="0" y="36" font-size="32" fill="#e6edf3">{text}</text></svg>'
+              )
+              open(f'dist/{name}.svg', 'w', encoding='utf-8').write(svg)
+              print(name, 'written')
+          PY
 
       - name: push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
