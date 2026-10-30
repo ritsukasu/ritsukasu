@@ -122,9 +122,9 @@ jobs:
           )
 
           titles = {
-              'h-hello': 'Hello',
+              'h-hello': 'Hello (˶˃ ᵕ ˂˶) .ᐟ.ᐟ',
               'h-tech': '&lt;/&gt; Tech Stack:',
-              'h-stats': 'GitHub Stats:',
+              'h-stats': '◔ GitHub Stats:',
           }
           for name, text in titles.items():
               svg = (
