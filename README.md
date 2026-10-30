@@ -1,21 +1,24 @@
-# Hello (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
+<img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/h-hello.svg?v=1" alt="Hello" />
+
+(˶˃ ᵕ ˂˶) .ᐟ.ᐟ
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=D0F0C0&center=true&vCenter=true&width=600&lines=Welcome+to+my+profile!;Full-stack+Developer;What+would+life+be+without+challenges?" alt="Typing SVG" />
+  <img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/typing.svg?v=1" alt="Typing SVG" />
 </div>
 
 <div align="center">
   <img src="welcome.gif" alt="Welcome GIF" width="800" />
 </div>
 
-# </> Tech Stack:
+<img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/h-tech.svg?v=1" alt="Tech Stack" />
+
 <div align="center">
 
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,arduino,autocad,blender,c,cs,cpp,css,coffeescript,django,docker,dotnet,figma,git,githubactions,gitlab,gmail,godot,html,java,js,jquery,laravel,matlab,mongodb,netlify,nextjs,nodejs,npm,ps,php,postgres,pr,pycharm,py,pytorch,raspberrypi,react,rust,sqlite,stackoverflow,sublime,supabase,tailwind,unity,visualstudio,vscode,vue)](https://skillicons.dev)
 
 </div>
 
-# ◴ GitHub Stats:
+<img src="https://raw.githubusercontent.com/ritsukasu/ritsukasu/output/h-stats.svg?v=1" alt="GitHub Stats" />
 
 <table>
 <tr>
