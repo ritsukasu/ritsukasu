@@ -124,12 +124,13 @@ jobs:
           titles = {
               'h-hello': 'Hello (˶˃ ᵕ ˂˶) .ᐟ.ᐟ',
               'h-tech': '&lt;/&gt; Tech Stack:',
-              'h-stats': '◔ GitHub Stats:',
+              'h-stats': '⚄ GitHub Stats:',
           }
           for name, text in titles.items():
               svg = (
-                  '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50">'
-                  f'{style}<text x="0" y="36" font-size="32" fill="#e6edf3">{text}</text></svg>'
+                  '<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56">'
+                  f'{style}<text x="0" y="36" font-size="32" fill="#e6edf3">{text}</text>'
+                  '<rect x="0" y="54" width="900" height="1" fill="#3d444d"/></svg>'
               )
               open(f'dist/{name}.svg', 'w', encoding='utf-8').write(svg)
               print(name, 'written')
