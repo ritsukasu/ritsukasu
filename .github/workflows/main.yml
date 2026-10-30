@@ -59,6 +59,18 @@ jobs:
               open(f, 'w', encoding='utf-8').write(s)
               print(f, 'ball replaced:', n)
           PY
+          
+      - name: build title SVGs (my font)
+        run: |
+          B64=$(base64 -w0 animeace2_reg.ttf)
+          STYLE="<style>@font-face{font-family:'AnimeAce';src:url(data:font/ttf;base64,$B64) format('truetype')}text{font-family:'AnimeAce',sans-serif}</style>"
+
+          mk() {
+            printf '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50">%s<text x="0" y="36" font-size="32" fill="#e6edf3">%s</text></svg>' "$STYLE" "$2" > "dist/$1.svg"
+          }
+          mk h-hello "Hello"
+          mk h-tech "&lt;/&gt; Tech Stack:"
+          mk h-stats "GitHub Stats:"
 
       - name: push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
