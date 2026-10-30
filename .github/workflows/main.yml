@@ -47,7 +47,7 @@ jobs:
           python3 - <<'PY'
           import base64, glob, re
           b64 = base64.b64encode(open('/tmp/ball.png', 'rb').read()).decode()
-          R = 24  # half-size in px (original ball radius is 5; cells are 20px)
+          R = 36  # half-size in px (original ball radius is 5; cells are 20px)
           pat = re.compile(r'<circle id="ball"[^>]*>(.*?)</circle>', re.S)
           for f in glob.glob('dist/*.svg'):
               s = open(f, encoding='utf-8').read()
